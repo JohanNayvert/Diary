@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args){
-        StartProgram();
+        startProgram();
     }
 
     private static void printMenu() {
@@ -18,7 +18,7 @@ public class Main {
         );
     }
 
-    public static void StartProgram() {
+    public static void startProgram() {
         Service service = new Service();
         printMenu();
         label:
